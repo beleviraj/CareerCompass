@@ -222,7 +222,7 @@ from flask import Flask, request, render_template, redirect, url_for
 
 # --- Configuration ---
 # Hardcode your API key here for convenience
-API_KEY = "AIzaSyAAXHurf-6wUlcx3VyTfc-38C_3cdFcglA"
+API_KEY = "USE YOUR API / I REMOVED IT FOR SECURITY CONCERNS"
 
 # --- Flask App Initialization ---
 app = Flask(__name__)
