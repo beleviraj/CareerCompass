@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+uploads/*
+!uploads/.gitkeep
+*.log
+*_log.txt
+error_log.txt
+new_error_log.txt
+pip_fix_log.txt
+run_log.txt
+test_log.txt
+upgrade_log.txt
+reproduce_log.txt
+retry_verify_log.txt
