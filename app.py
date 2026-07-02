@@ -8,6 +8,12 @@ from dotenv import load_dotenv
 from tenacity import retry, retry_if_not_exception_type, stop_after_attempt, wait_exponential
 from werkzeug.utils import secure_filename
 
+<<<<<<< HEAD
+=======
+# --- Configuration ---
+# Hardcode your API key here for convenience
+API_KEY = "USE YOUR API / I REMOVED IT FOR SECURITY CONCERNS"
+>>>>>>> 6fc44c92bbcd2c11a709b36756db2f8c40ccb17b
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 UPLOAD_FOLDER = os.path.join(BASE_DIR, "uploads")
@@ -253,7 +259,12 @@ def index():
             top_company=top_company_name
         )
 
+<<<<<<< HEAD
     return render_template("index.html")
 
 if __name__ == "__main__":
+=======
+if __name__ == '__main__':
+    # Runs the Flask application
+>>>>>>> 6fc44c92bbcd2c11a709b36756db2f8c40ccb17b
     app.run(debug=True)
